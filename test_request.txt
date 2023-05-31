@@ -1,0 +1,29 @@
+GET
+{
+  "httpMethod": "GET",
+  "pathParameters": {
+      "taskId":"c9e12f11-9cc1-47eb-9f89-749db19b0bca"
+  }
+}
+or
+{
+  "httpMethod": "GET",
+  "pathParameters": {
+      
+  }
+}
+POST
+{
+  "body": "{\n    \"S3_url\" : \"First Task\"\n,\"tags\" : \"sample description\"}",
+  "httpMethod": "POST"
+}
+PUT
+{
+    "httpMethod": "PUT",
+    "body": "{\"id\": \"386b79ca-338b-4684-871b-2593e7feb121\", \"tags\": \"new tags\", \"S3_url\": \"new url\"}"
+}
+DELETE
+{
+    "httpMethod": "DELETE",
+    "body": "{\"id\": \"386b79ca-338b-4684-871b-2593e7feb121\"}"
+}
